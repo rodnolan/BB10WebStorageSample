@@ -1,0 +1,54 @@
+<div data-bb-type="screen">
+
+	<script src="js/write.js"></script>
+
+	<div data-bb-type="title" data-bb-caption="Write"></div>
+
+
+	<div style="margin:15px;">
+		<table>
+			<tr>
+				<td style="padding-top:7px;">Complex Value?</td>
+				<td>
+					<div data-bb-type="toggle" data-bb-checked="true" data-bb-on="Yes" data-bb-off="No" id="isComplexValue"></div>
+				</td>
+				<td style="padding-top:7px;">Persist it?</td>
+				<td>
+					<div data-bb-type="toggle" data-bb-checked="true" data-bb-on="Yes" data-bb-off="No" id="persist"></div>
+				</td>
+			</tr>
+		</table>		
+	</div>
+
+	<div data-bb-type="round-panel">
+		<div data-bb-type="label-control-container">
+			<div data-bb-type="row">
+				<div data-bb-type="label">Key</div>
+				<input id="txtKey" type="text" placeholder="Name" value="k1"/>
+			</div>
+			<div data-bb-type="row">
+				<div data-bb-type="label">Value 1</div>
+				<input id="txtVal1" type="text" placeholder="Value" value="v1"/>
+			</div>
+			<div data-bb-type="row" id="row2">
+				<div data-bb-type="label">Value 2</div>
+				<input id="txtVal2" type="text" placeholder="Value" value="v2"/>
+			</div>
+		</div>
+	</div>
+
+	<div data-bb-type="action-bar">
+		<div id="btnSave"
+			data-bb-type="action"
+			data-bb-style="button"
+			data-bb-img="assets/icons/save.png">
+			Save
+		</div>
+		<div id="btnRead"
+			data-bb-type="action"
+			data-bb-style="button"
+			data-bb-img="assets/icons/list.png">
+			View List
+		</div>
+	</div>
+</div>
